@@ -4,23 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>House</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <section class="navigation">
         <div class="container">
-            <div class="navigation__logo">
-                <img src="./icon/Logo.png" alt="Logo">
+            <div class="navigation__main">
+                <div class="navigation__logo">
+                   <a href="#"><img src="./icon/Logo.png" alt="Logo"></a> 
+                </div>
+                <nav class="navigation__menu">
+                    <ul class="navigation__menu_li">
+                        <li class="navigation_list"><a href="#"><span>Start</span></a></li>
+                        <li class="navigation_list"><a href="#"><span>Contact</span></a></li>
+                        <li class="navigation_list"><a href="#"><span>Our history</span></a></li>
+                    </ul>
+                </nav>
+                <button class="main__button"><a href="#"><span>Book now</span></a></button>
             </div>
-            <nav class="navigation__menu">
-                <ul>
-                    <li class="navigation_list">Start</li>
-                    <li class="navigation_list">Contact</li>
-                    <li class="navigation_list">Our history</li>
-                </ul>
-            </nav>
-            <div class="navigation__button"><a href="#"><span>Book now</span></a></div>
         </div>
     </section>
+
+    <section class="banner">
+        <div class="banner__bg"></div>
+        <div class="banner__items">
+            <div class="container">
+                <div class="banner__logo">
+                    <img src="./icon/Logo.png" alt="Logo">
+                </div>
+                <div class="banner__maintext">Experience the perfect combination of modern housing <br> & natural scenery.</div>
+                <div class="banner__srctext">Located in Lofoten, norway</div>
+                <div class="banner__bottomlogo">
+                    <img src="./icon/main_bottom.png" alt="Click">
+                </div>
+            </div>
+        </div>  
+    </section>
+
 </body>
 </html>
