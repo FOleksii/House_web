@@ -32,6 +32,18 @@ button a span {
   width: 132px;
 }
 
+.main__line {
+  height: 8px;
+  width: 42px;
+  background: #E08631;
+  margin: 0 auto;
+}
+
+.main__block {
+  width: 100px;
+  height: 100px;
+}
+
 .navigation {
   width: 100%;
   background-color: #52503B;
@@ -96,4 +108,108 @@ button a span {
 }
 .banner__bottomlogo {
   margin-top: 120px;
+}
+
+.descript {
+  background: #FAF8F0;
+}
+.descript__bg {
+  height: 100px;
+  width: 100px;
+}
+.descript__block {
+  margin: 0 auto;
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 800px;
+  justify-items: stretch;
+  gap: 35px;
+}
+.descript__item {
+  max-width: 360px;
+  margin-bottom: 90px;
+}
+.descript__item button {
+  margin-top: 30px;
+  background: #52503B;
+}
+.descript__item button span {
+  color: #FFFFFF;
+}
+
+.bigtext {
+  margin-top: 80px;
+}
+.bigtext__text {
+  font-weight: 700;
+  line-height: 96px;
+  text-align: center;
+  color: #52503B;
+  font-size: 96px;
+  margin-top: 32px;
+}
+.bigtext__bg {
+  margin-top: 100px;
+  width: 100%;
+  background: url("../img/background middle.png");
+  height: 600px;
+}
+
+.arrang {
+  background: #FAF8F0;
+  min-height: 530px;
+}
+.arrang__text {
+  margin-top: 30px;
+  color: #52503B;
+  font-size: 32px;
+  text-align: center;
+  line-height: 36px;
+}
+.arrang__src {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 554px;
+  line-height: 24px;
+  text-align: center;
+  color: #52503B;
+  font-size: 16px;
+}
+.arrang__block {
+  width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  margin-top: 32px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+.arrang__block_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.arrang__block_items_img {
+  margin-top: 36px;
+}
+.arrang__block_items_src {
+  margin-top: 14px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+.arrang__block_items_descr {
+  text-align: center;
+  margin-top: 4px;
 }

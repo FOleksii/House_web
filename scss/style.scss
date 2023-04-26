@@ -28,6 +28,16 @@ button {
     box-shadow: none;
     width: 132px;
  }
+.main__line {
+        height: 8px;
+        width: 42px;
+        background: #E08631;
+        margin: 0 auto;
+}
+.main__block{
+    width: 100px;
+    height: 100px;
+}
 
 
 .navigation {
@@ -94,6 +104,97 @@ button {
         margin-top: 120px;
     }
 }
-
+.descript {
+    background: #FAF8F0;
+    &__bg {
+        height: 100px;
+        width: 100px;
+    }
+    &__block {
+        margin: 0 auto;
+        margin-top: 34px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 800px;
+        justify-items: stretch;
+        gap: 35px;
+        }
+    &__item{
+        max-width: 360px;
+        margin-bottom: 90px;
+        button {
+            margin-top: 30px;
+            background:#52503B;
+            span {
+                color:#FFFFFF
+            }
+        }
+    }
+}
+.bigtext {
+    margin-top: 80px;
+    &__text{
+        font-weight: 700;
+        line-height: 96px;
+        text-align: center;
+        color: #52503B;
+        font-size: 96px;
+        margin-top: 32px;
+    }
+    &__bg {
+        margin-top: 100px;
+        width: 100%;
+        background: url("../img/background middle.png");
+        height: 600px;
+    }
+}
+.arrang {
+    background: #FAF8F0;
+    min-height: 530px;
+    &__text{
+        margin-top: 30px;
+        color:#52503B;
+        font-size: 32px;
+        text-align: center;
+        line-height: 36px;
+    }
+    &__src {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        max-width: 554px;
+        line-height: 24px;
+        text-align: center;
+        color: #52503B;
+        font-size: 16px;
+    }
+    &__block {
+        width: 1200px;
+        display: grid;
+        margin: 0 auto;
+        margin-top: 32px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px;
+        &_items {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            &_img {
+                margin-top: 36px;
+            }
+            &_src {
+                margin-top: 14px;
+                font-size: 16px;
+                text-align: center;
+                line-height: 24px;
+            }
+            &_descr {
+                text-align: center;
+                margin-top: 4px;
+            }
+        }
+    }
+}
 
 
